@@ -4,21 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Android</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <nav class="navbar">
             <div class="navbar-container">
-                <a href="#" class="brand-logo"><img src="logo.webp" alt=""></a>
+                <a href="#"><img class="brand-logo" src="logo.webp" alt=""></a>
                 <ul class="nav-menu">
-                    <li class="nav-item"><a href="#Discover Android" class="nav-link">Discover Android</a></li>
+                     <!-- <li class="nav-item"><a href="#Discover Android" class="nav-link">Discover Android</a></li> -->
+                    <div class="dropdown" class="nav-item">
+                      <a  href="#Discover Android"> <span class="nav-link">Discover Android</span> </a> 
+                      <ul class="dropdown-menu">
+                        <li ><a href="#">Android 14</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Safty</a></li>
+                        <li><a href="#">Android auto</a></li>
+                      </ul>
+                    </div>
+                 
                     <li class="nav-item"><a href="#Switch to Android" class="nav-link">Switch to Android</a></li>
                     <li class="nav-item"><a href="#Explore Devices" class="nav-link">Explore Devices</a></li>
-                </ul>
+                    <a href="#" ><img class="search-icon" src="search-icon.svg" alt=""></a>
             </div>
         </nav>
     </header>
+    <section class="main-section">
+      <div class="hero-section">
+        <video  preload="metadata" disableremoteplayback="" muted="" playsinline="" loop="" aria-label="A girl is showing off her new sunglasses. The circle to search feature is used to identify the brand of sunglasses. Discover the new Circle to Search feature." autoplay="" poster=""><source src="https://kstatic.googleusercontent.com/files/070d6022e53d89ac9001d0f567a36f54fc251910890d71c1b6b979876f93be5b0bb4d7c257862cd42becbddb58f5efee7ae111213c0434618b4e21dba1e5f447" type="video/mp4"></video>
+      </div>
+    </section>
     
 </body>
 </html>
